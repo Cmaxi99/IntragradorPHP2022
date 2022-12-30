@@ -1,0 +1,38 @@
+html{
+    height: 100vh;
+    margin: 0;
+}
+
+.logo{
+    width: 100px;
+    height: 60px;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgTPIOriginal/ba1.jpg");
+}
+
+header, footer{
+    opacity: 0.8;
+}
+
+.enviar{
+    background-color: #96c83f !important;
+    color: #ffffff;
+}
+
+/* Estilo del nav del footer */
+.footer-bottom{
+    background-color: #1d5171;
+}
+
+.footer-bottom ul li{
+    padding: 0px 10px;
+    margin: 0px 40px;
+    width: 130px;
+}
+
+.footer-bottom a{
+    text-decoration: none;
+    color: #ffffff;
+}

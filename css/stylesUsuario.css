@@ -1,0 +1,50 @@
+.logo{
+    width: 100px;
+    height: 60px;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgTPIOriginal/ba2.jpg");
+}
+
+header, footer{
+    opacity: 0.8;
+}
+table{
+    background: rgba(34,38,118,0.25);
+    -webkit-backdrop-filter: blur(9px);
+    backdrop-filter: blur(9px);
+    border: 1px solid rgba(34,38,118,0.125);
+}
+
+tr{
+    color: #ffffff;
+}
+
+button{
+    border: none;
+    background: none;
+}
+
+.enviar{
+    background-color: #96c83f !important;
+    color: #ffffff;
+}
+
+/* Estilo del nav del footer */
+.footer-bottom{
+    background-color: #1d5171;
+}
+
+.footer-bottom ul li{
+    padding: 0px 10px;
+    margin: 0px 40px;
+    width: 130px;
+}
+
+.footer-bottom a{
+    text-decoration: none;
+    color: #ffffff;
+}

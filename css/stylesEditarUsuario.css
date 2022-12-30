@@ -1,0 +1,40 @@
+html{
+    height: 100vh;
+    margin: 0;
+}
+
+.logo{
+    width: 100px;
+    height: 60px;
+}
+
+body{
+    background: #2b2f77;
+    background: -webkit-linear-gradient(150deg, #2b2f77 0%, #141852 50%, #070b34 100%);
+    background: linear-gradient(150deg, #2b2f77 0%, #141852 50%, #070b34 100%);
+}
+
+header, footer{
+    opacity: 0.8;
+}
+
+.enviar{
+    background-color: #96c83f !important;
+    color: #ffffff;
+}
+
+/* Estilo del nav del footer */
+.footer-bottom{
+    background-color: #1d5171;
+}
+
+.footer-bottom ul li{
+    padding: 0px 10px;
+    margin: 0px 40px;
+    width: 130px;
+}
+
+.footer-bottom a{
+    text-decoration: none;
+    color: #ffffff;
+}
